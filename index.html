@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>BiHome</title>
+    <meta name="description" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg" />
+    <link rel="icon" href="img/favicon/apple-touch-icon-180x180.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon-180x180.png"
+    />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css" />
+
+    <!-- Load google font
+	================================================== -->
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: {
+          families: [
+            "Catamaran:300,400,600,700",
+            "Raleway:100,700",
+            "Roboto:700,900"
+          ]
+        }
+      };
+      (function() {
+        var wf = document.createElement("script");
+        wf.src =
+          ("https:" == document.location.protocol ? "https" : "http") +
+          "://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+
+    <!-- Load other scripts
+	================================================== -->
+    <script type="text/javascript">
+      var _html = document.documentElement;
+      _html.className = _html.className.replace("no-js", "js");
+    </script>
+
+    <style>
+      .preloader {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #fff;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="preloader"></div>
+
+    <div class="wrapper">
+      <header class="header">
+        <a href="index.html#" class="logo">
+          <div class="logo__img"></div>
+          <div class="logo__title">BiHome</div>
+        </a>
+
+        <div class="btn-menu">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+      </header>
+
+      <div class="fixed-menu">
+        <div class="fixed-menu__header">
+          <a href="index.html#" class="logo logo--color">
+            <div class="logo__img"></div>
+            <div class="logo__title">BiHome</div>
+          </a>
+
+          <div class="btn-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1"
+              x="0px"
+              y="0px"
+              viewBox="0 0 47.971 47.971"
+              style="enable-background:new 0 0 47.971 47.971;"
+              xml:space="preserve"
+              width="512px"
+              height="512px"
+            >
+              <path
+                d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"
+                fill="#006DF0"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="fixed-menu__content">
+          <ul class="mob-menu">
+            <li class="mob-menu__item">
+              <a href="index.html#about" class="mob-menu__link">About</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#services" class="mob-menu__link">Services</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#map" class="mob-menu__link">Road Map</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#statistic" class="mob-menu__link"
+                >Statistic</a
+              >
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#token" class="mob-menu__link">Token</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#docs" class="mob-menu__link">WhitePappers</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#team" class="mob-menu__link">Team</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="index.html#faq" class="mob-menu__link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="promo">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 promo__content">
+              <h1>
+                BiHome
+                <span
+                  >Using Nanotech Inspired Pills to Unlock our Microbiome</span
+                >
+              </h1>
+
+              <p>
+				By using nanotechnology and specific enzymes, we can analysis the microbiome.
+				This can help us prepare for a wide range of things from disease prevention to our junk food craving.
+              </p>
+
+              <div class="promo__btns-wrap">
+                <a href="index.html" class="btn btn--medium btn--white"
+                  >Article</a
+                >
+                <a href="index.html" class="btn btn--big btn--purpure"
+                  >Video</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-down">
+          <img src="img/scroll-down.png" alt="" />
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div
+                class="section-header section-header--animated section-header--center section-header--medium-margin"
+              >
+                <h4>About BiHome</h4>
+                <h2>Revolutionizing the way we look at sampling</h2>
+              </div>
+              <p>
+                BiHome is a biotechnology company that aims to
+                <b>augment human longevity</b> by amplifying the body’s ability
+                to fight against diseases and heal itself. We are pioneering the
+                use of <b>artificial white blood cells</b> to carry CRISPR - a
+                groundbreaking gene editing tool - to specific cell targets and
+                <b>reverse the effects of aging</b>.
+                <br />
+                <br />
+                By using state-of-the-art DNA origami technology, we ensure safe
+                and efficient delivery of CRISPR in the body, providing
+                <b>transformative therapeutic options</b> for complex medical
+                conditions from <b>cancer to Crohn’s disease.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section data jarallax"
+        style="background-image: url(img/theproblem.png)"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="section-header section-header--white">
+                <h4>The problem</h4>
+                <h2>
+                  CRISPR is a powerful gene editing tool, but it is rejected by
+                  the human immunse system.
+                  <br />
+                  <br />
+                  <span style="font-weight:normal"
+                    >Curacle is the first to create artificial white blood cells
+                    for safe delivery of CRISPR to treat the most fatal diseases
+                    and prolong human life.
+                  </span>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="data__num">
+                <div class="data__num-row">
+                  <div class="data__num-value">4402</div>
+                  <div class="data__num-name">
+                    <div>$</div>
+                    <div>mln.</div>
+                  </div>
+                </div>
+                <div class="data__num-row">
+                  <p>Global Gene Therapy Market by 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <br />
+
+      <section class="section section--no-pad-top services" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="secton-header section-header--animated section-header--center section-header--medium-margin"
+              >
+                <h4>Our Technology</h4>
+                <h2>How it works</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service">
+                <figure style="justify-content: center">
+                  <img src="img/service-icon-1.png.png" alt="" />
+                </figure>
+                <h3 style="text-align: center">CRISPR-Cas</h3>
+                <p>
+                  Curacle employs CRISPR, a novel gene editing technology, to
+                  target and modify undesirable or promblem-causing genes in the
+                  cellular genome.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service">
+                <figure style="justify-content: center">
+                  <img src="img/service-icon-2.png" alt="" />
+                </figure>
+                <h3 style="text-align: center">DNA Origami</h3>
+                <p>
+                  DNA origami is used as a <b>vehicle to deliver CRISPR</b> in
+                  the body. Using CanDo by MIT, Curacle designs
+                  <b>3D bio-responsive DNA nanostructures</b> with different
+                  receptors, specific to various cell types that enable optimal
+                  transition from the digestive system to the blood stream.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service">
+                <figure style="justify-content: center">
+                  <img src="img/service-icon-3.png" alt="" />
+                </figure>
+                <h3 style="text-align: center">Leukocyte Membrane</h3>
+                <p>
+                  Curacle uses <b>state-of-the-art gesicle technology</b> to
+                  coat the DNA origami with <b>White Blood Cell membrane</b>. By
+                  camouflaging the DNA nanostructure, we effectively prevent it
+                  from being rejected by the immune system and allow it to
+                  safely circulate the human body.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section platform">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xl-5 col-md-8 platform__content">
+              <div
+                class="section-header section-header--tire section-header--small-margin"
+              >
+                <h4>Case Study</h4>
+                <h2>Activating Youth Genes</h2>
+                <br />
+                <p>
+                  The novel CRISPR technology allow Curacle to increase Klotho
+                  gene level to <b>improve cognitive functions</b>, FOXO3 gene
+                  to prolong stem cell life and
+                  <b>help the body heal faster</b>, or suppress myostatin to
+                  <b>expand the mitochondria</b> and
+                  <b>replenish the body with new energy.</b>
+                  <br />
+                  <br />
+                  Curacle is developing the
+                  <b>world's first off-the-shelf gene therapy</b> for
+                  <b>body rejuvenation. </b>
+                </p>
+              </div>
+
+              <img class="platform__img" src="img/platform-screen.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <img
+          src="img/token.png"
+          data-jarallax-element="-140"
+          class="parallax-el"
+          alt=""
+        />
+      </section>
+
+      <section class="news section section--no-pad-bot">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="section-header section-header--animated section-header--center section-header--medium-margin"
+              >
+                <h4>Case Study</h4>
+                <h2>Immuno-oncology Therapeutics</h2>
+                <br />
+                <p>
+                  Aging leads to the deterioration of the human body immune
+                  system, making it more susceptible to the deadliest diseases
+                  in the world, such as cancer, cardiovascular diseases and
+                  neurodegeneration. By supplementing the body with
+                  <b>CRISPR-mediated, synthetic white blood cells,</b> Curacle
+                  optimizes the body's ability to
+                  <b>fight the most fatal diseases.</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="news-carousel owl-carousel">
+                <a href="index.html" class="news-carousel__item">
+                  <img
+                    class="news-carousel__item-img"
+                    src="img/cancer.jpg"
+                    alt=""
+                  />
+                  <div class="news-carousel__item-body">
+                    <div class="news-carousel__item-subtitle"></div>
+                    <h3 class="news-carousel__item-title">
+                      Esophageal Cancer
+                    </h3>
+                    <p>
+                      Esophageal cancer is cancer that occurs in the esophagus —
+                      a long, hollow tube that runs from your throat to your
+                      stomach - and is the
+                      <b>sixth most common cause of cancer deaths worldwide.</b
+                      >CRISPR is able to knock out a gene in the T cells known
+                      as <b>PD-1</b>. The deleted genes
+                      <b>reprogram the T cells</b> to
+                      <b>better find and attack cancer. </b>
+                    </p>
+                  </div>
+                </a>
+
+                <a href="index.html" class="news-carousel__item">
+                  <img
+                    class="news-carousel__item-img"
+                    src="img/bloodcancer.jpg"
+                    alt=""
+                  />
+                  <div class="news-carousel__item-body">
+                    <div class="news-carousel__item-subtitle"></div>
+                    <h3 class="news-carousel__item-title">
+                      Leukemia
+                    </h3>
+                    <p>
+                      Leukemia is an aggressive blood cancer that can affect
+                      people of all ages. It develops in the bone marrow,
+                      overwhelming the healthy cells that reside there, which
+                      impairs the immune system leading to serious infections
+                      and bleeding. CRISPR enables the inhibition of
+                      <b>METTL3 gene</b>, which pushes the
+                      <b>blood cancer cells towards apoptosis. </b>
+                    </p>
+                  </div>
+                </a>
+
+                <a href="index.html" class="news-carousel__item">
+                  <img
+                    class="news-carousel__item-img"
+                    src="img/crohn&#32;(2).jpg"
+                    alt=""
+                  />
+                  <div class="news-carousel__item-body">
+                    <div class="news-carousel__item-subtitle"></div>
+                    <h3 class="news-carousel__item-title">
+                      Crohn's Disease
+                    </h3>
+                    <p>
+                      Crohn’s disease is a chronic inflammatory condition of the
+                      gastrointestinal tract that causes severe swelling and
+                      pain. CRISPR can be employed to switch on the IL2RA gene,
+                      enabling the T cells to <b>suppress inflammation</b> and
+                      counteract the effects of <b>Crohn's</b> and
+                      <b>inflammatory bowel disease.</b>
+                    </p>
+                    <div class="news-carousel__item-data"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <footer
+        class="footer jarallax"
+        style="background-image: url(img/final.png)"
+      >
+        <div class="footer__top section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-1">
+                <div
+                  class="section-header section-header--white section-header--small-margin"
+                >
+                  <h4>Contact us</h4>
+                  <h2>Get in Touch</h2>
+                </div>
+
+                <ul class="footer__list">
+                  <li>info@curacle.com</li>
+                  <li>curacle.com</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <form
+                  action="index.html#"
+                  class="form contact-form"
+                  id="contact-form"
+                >
+                  <div>
+                    <input
+                      type="text"
+                      name="Name"
+                      class="form__input"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="Email"
+                      class="form__input"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div>
+                    <textarea
+                      name="Message"
+                      class="form__textarea"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <div class="inline-block">
+                    <button class="form__btn btn btn--big btn--white">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bot">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-2 col-sm-12">
+                <a href="index.html" class="logo">
+                  <img
+                    class="logo__img logo__img--big"
+                    src="img/Logo_white.svg"
+                    alt=""
+                  />
+                </a>
+                <div class="copyright">© 2018, Curacle</div>
+              </div>
+
+              <div class="col-lg-4">
+                <form
+                  action="index.html#"
+                  class="form subscribe"
+                  id="subscribe-form"
+                >
+                  <div class="form__title">Subscribe</div>
+                  <div class="form__row">
+                    <input
+                      type="email"
+                      name="subscribe_email"
+                      class="form__input"
+                      placeholder="Email"
+                    />
+                    <button class="form__btn btn btn--white btn--medium">
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <img class="bg-triangle-left" src="img/bg-tr-left.png" alt="" />
+      <img src="img/big-triangle-bg-left.png" class="bg-triangle-top" alt="" />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-2.2.4.min.js"><\/script>');
+    </script>
+
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
